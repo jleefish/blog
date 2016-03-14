@@ -1,8 +1,10 @@
-AngularJS Tutorial 1
+PORTFOLIO V.01
 ====================
 
-author: [Nick Kaye](http://www.nickkaye.com)
+author: Junghun Lee
 
-**NOTE:  We’re referencing all of our vendor dependencies (e.g. Bootstrap, jQuery, Angular) at outside URLs.   Therefore, it is necessary to host our site while we’re working on it.  Be sure we are viewing it in a browser with http:// -- not file://**
+**NOTE:  This is a personal portfolio web pages which represents my technical skills. I found this AngularJs template on Nick Kaye's github.**
 
-View the [live demo](http://airpair.github.io/demos/2014/09/T0021-airpair-angularjs-tutorial).
+View the [web page](http://jleefish.github.io/blog/#/).
+
+source: [Nick Kaye](http://www.nickkaye.com)
