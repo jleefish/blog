@@ -43,9 +43,6 @@ app.controller('BlogCtrl', function (/* $scope, $location, $http */) {
 app.controller('PageCtrl', function (/* $scope, $location, $http */) {
   console.log("Page Controller reporting for duty.");
 
-  //tab control
-  $('#myTab').tab();
-
   // Activates the Carousel
   $('.carousel').carousel({
     interval: 5000
