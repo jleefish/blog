@@ -1,0 +1,97 @@
+/*
+
+///////////////////////////////////////////////////////
+
+
+//////   ///     ///////   ////    //   ///////   ///
+///      ///     ///  //   /// /   //   //        ///
+//////   ///     ///////   ///  /  //   //        ///
+    //   ///     /// //    ///   / //   //        ///
+//////   //////  ///  //   ///    ///   ///////   //////
+
+
+////////////////////////////////////////////////////////
+
+Domain: solerieu-nicolas.fr
+Author: Nicolas Solerieu
+Description: _
+Version: 1.0
+Modified by: Junghun Lee
+Date: Mar 15 2016
+
+/* -------------------------------------------------------------- 
+/* =BASIS
+-------------------------------------------------------------- */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* -------------------------------------------------------------- 
+/* =TYPOGRAPHY
+-------------------------------------------------------------- */
+p {
+  color: #666666;
+  margin: 10px 0 23px 0;
+  font-size: 15px;
+  line-height: 180%;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  color: #888888;
+  position: relative;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+a:hover {
+  opacity: 0.7;
+}
+h4 {
+  font-weight: bold;
+  margin: 20px 0 0 0;
+  color: #333333;
+}
+
+/* -------------------------------------------------------------- 
+/* =INTRO
+-------------------------------------------------------------- */
+
+section.intro {
+    padding: 100px 0 100px 0;
+    margin-left: 10px;
+}
+.headline {
+  font-size: 3em;
+  height: 50px;
+  line-height: 150%;
+  color: #333333;
+  margin: 0 0 10px 0;
+}
+
+/* -------------------------------------------------------------- 
+/* =RESPONSIVE / SCREEN UNDER 600PX
+-------------------------------------------------------------- */
+@media screen and (max-width: 900px) {
+  p {
+    margin: 5px 0 13px 0;
+    font-size: 14px;
+    line-height: 170%;
+  }
+  .headline {
+    font-size: 1.5em;
+    width: 100%;
+  }
+  section.intro {
+    padding: 20px 0;
+  }
+}
+
+

@@ -20,11 +20,18 @@
     <!-- Vendor: Bootstrap Stylesheets http://getbootstrap.com -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <!-- <link rel="stylesheet" href="css/font-awesome.css" > -->
+<!--    <link rel="stylesheet" href="css/slick.css" >-->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Our Website CSS Styles -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css" >
+	<link rel="stylesheet" href="css/font-awesome.css" >
+	<link rel="stylesheet" href="css/slick.css" >
+	<link rel="stylesheet" href="css/style.css" >
 
+    
 </head>
 <body ng-app="tutorialWebApp">
 <!--[if lt IE 7]>
@@ -34,6 +41,21 @@
 
 <!-- Our Website Content Goes Here -->
 <div ng-include='"templates/header.html"'></div>
+    <div class="section-colored">
+        <div class="container">
+        <div class="row intro">
+            <section class="intro">
+                <p class="headline"></p>                
+            </section>
+            
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.section-colored -->
 <div ng-view></div>
 <div ng-include='"templates/footer.html"'></div>
 
@@ -46,7 +68,12 @@
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
 
 <!-- Our Website Javascripts -->
+<script src="js/jquery.js"></script>
 <script src="js/main.js"></script>
+<script src="js/main_jquery.js"></script>
+<script src="js/typed.js"></script>
+<script src="js/pace.js"></script>
+<script src="js/slick.js"></script>
 
 </body>
 </html>
