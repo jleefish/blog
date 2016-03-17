@@ -10,7 +10,7 @@ $( window ).load(function() {
     strings: [
       "I enjoy programming",
       "I'm studying at Sheridan College in Oakville",
-      "I'm focusing on web / mobile applicaiotn",
+      "I'm focusing on web / mobile application",
       "I'm learning MEAN stack on my own",
       "Not easy, but interesting !!",            
       "I want to build useful applications",
