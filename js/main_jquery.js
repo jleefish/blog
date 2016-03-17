@@ -23,13 +23,3 @@ $( window ).load(function() {
   
 });
 
-
-// --------------------------------------------------------- //
-// BACK TO TOP
-// --------------------------------------------------------- //
-$('#backtotop').click(function(){
-        
-$('html,body').animate({scrollTop: 0},2000);
-return false;
-
-});
