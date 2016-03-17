@@ -12,7 +12,7 @@ $( window ).load(function() {
       "Focusing on web / mobile application",
       "Learning MEAN stack on my own",
       "Not easy, but interesting !!",            
-      "I want to build useful applications",
+      "I am passionate about building useful applications",
       "I'm a programmer."
     ],
     typeSpeed: 60,
