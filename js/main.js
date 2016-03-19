@@ -84,9 +84,10 @@ app.controller('ChartCtrl', function ( $scope, $location, $http ) {
             series: {
                 borderWidth: 0,
                 dataLabels: {
-                    enabled: false
-                }
-            }
+                    enabled: true
+                },
+                pointWidth:60
+            }            
         },
 
         tooltip: {
