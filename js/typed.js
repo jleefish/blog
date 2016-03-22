@@ -21,8 +21,6 @@
 // THE SOFTWARE.
 
 
-
-
 ! function($) {
 
     "use strict";
@@ -432,3 +430,4 @@
 
 
 }(window.jQuery);
+

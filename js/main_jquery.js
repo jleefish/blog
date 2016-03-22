@@ -19,6 +19,5 @@ $( window ).load(function() {
     startDelay: 50,
     showCursor: false
   });
-  
 });
 
