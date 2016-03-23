@@ -87,7 +87,7 @@ app.controller('ChartCtrl', function ( $scope, $location, $http ) {
                     enabled: true,
                     format: '{point.level}'
                 },
-                pointWidth:60
+                pointWidth:55
             }            
         },
 
