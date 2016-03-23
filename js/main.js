@@ -84,35 +84,47 @@ app.controller('ChartCtrl', function ( $scope, $location, $http ) {
             series: {
                 borderWidth: 0,
                 dataLabels: {
-                    enabled: true
+                    enabled: true,
+                    format: '{point.level}'
                 },
                 pointWidth:60
             }            
         },
 
         tooltip: {
-            headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-            pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
+            headerFormat: '',
+            pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.desc}<br/>'
         },
 
         series: [{
+            name:'',
             colorByPoint: true,
             data: [{
-                name: 'Microsoft Internet Explorer',
-                y: 56.33,
+                name: 'Javascript',
+                y: 51.33,
+                level:'Novice',
+                desc:'AngularJS/Node.js'
             }, {
-                name: 'Chrome',
-                y: 24.03,
+                name: 'Android',
+                y: 65.03,
+                level:'Jedi',
+                desc:''
             }, {
-                name: 'Firefox',
-                y: 10.38,
+                name: 'Objective-c',
+                y: 35.38,
+                level:'Novice',
+                desc:''
             }, {
-                name: 'Safari',
-                y: 4.77,
+                name: 'Drinking coffee',
+                y: 88.91,
+                level:'Master',
+                desc:'Nespresso/Hand Drip'
             }, {
-                name: 'Opera',
-                y: 0.91,
-            }]
+                name: 'Inline hockey',
+                y: 71.77,
+                level:'Jedi',
+                desc:'Left-handed'
+            },]
         }]
     });
 });
