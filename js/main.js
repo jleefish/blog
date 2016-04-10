@@ -111,7 +111,7 @@ app.controller('ChartCtrl', function ( $scope, $location, $http ) {
                 desc:''
             }, {
                 name: 'Objective-c',
-                y: 35.38,
+                y: 55.38,
                 level:'Novice',
                 desc:''
             }, {
