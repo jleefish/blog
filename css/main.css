@@ -18,6 +18,7 @@ For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap
 
 html, body {
     height: 100%;
+    width: 600px
 }
 
 body {
