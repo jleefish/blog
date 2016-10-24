@@ -120,17 +120,17 @@ app.controller('ChartCtrl', function ( $scope, $location, $http ) {
                 level:'Jedi',
                 // desc:''
             }
-            , {
-                name: 'Coffee',
-                y: 80.91,
-                level:'Master',
-                desc:'Nespresso/Hand Drip'
-            }, {
-                name: 'Inline hockey',
-                y: 76.77,
-                level:'Jedi',
-                desc:'Left-handed'
-            }
+            // , {
+            //     name: 'Coffee',
+            //     y: 80.91,
+            //     level:'Master',
+            //     desc:'Nespresso/Hand Drip'
+            // }, {
+            //     name: 'Inline hockey',
+            //     y: 76.77,
+            //     level:'Jedi',
+            //     desc:'Left-handed'
+            // }
             ]
         }]
     });
