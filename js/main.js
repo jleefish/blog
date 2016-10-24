@@ -103,14 +103,24 @@ app.controller('ChartCtrl', function ( $scope, $location, $http ) {
                 name: 'Android',
                 y: 65.03,
                 level:'Jedi',
-                desc:''
+                // desc:''
             }, {
                 name: 'Objective-c',
                 y: 77.05,
                 level:'Jedi',
-                desc:''
+                // desc:''
             }, {
-                name: 'Drinking coffee',
+                name: 'Java',
+                y: 70.05,
+                level:'Jedi',
+                desc:'Spring / Hibernate'
+            }, {
+                name: 'SQL',
+                y: 70.05,
+                level:'Jedi',
+                // desc:''
+            }, {
+                name: 'Coffee',
                 y: 80.91,
                 level:'Master',
                 desc:'Nespresso/Hand Drip'
