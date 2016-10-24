@@ -106,17 +106,17 @@ app.controller('ChartCtrl', function ( $scope, $location, $http ) {
                 desc:''
             }, {
                 name: 'Objective-c',
-                y: 67.05,
+                y: 77.05,
                 level:'Jedi',
                 desc:''
             }, {
                 name: 'Drinking coffee',
-                y: 88.91,
+                y: 80.91,
                 level:'Master',
                 desc:'Nespresso/Hand Drip'
             }, {
                 name: 'Inline hockey',
-                y: 71.77,
+                y: 76.77,
                 level:'Jedi',
                 desc:'Left-handed'
             },]
