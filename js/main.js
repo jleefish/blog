@@ -111,7 +111,7 @@ app.controller('ChartCtrl', function ( $scope, $location, $http ) {
                 // desc:''
             }, {
                 name: 'Java',
-                y: 70.05,
+                y: 77.05,
                 level:'Jedi',
                 desc:'Spring / Hibernate'
             }, {
